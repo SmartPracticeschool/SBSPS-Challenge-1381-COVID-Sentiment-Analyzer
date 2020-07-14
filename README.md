@@ -12,3 +12,6 @@ https://drive.google.com/drive/folders/1nkpBLspPPVLsFNaPEWud7YvPB-hLjMkr?usp=sha
 
 #Project Report : 
 Project_Report_IBM_HC_2020.docx
+
+#PPT Presentation : 
+PPT_IBM_HC_2020.pptx
