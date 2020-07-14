@@ -1,0 +1,78 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.btn{
+    position: relative;
+    text-align: center;
+}
+.btn a{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  #2ecc71;
+    padding: 5px 15px;
+    outline: none;
+    color: green;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.btn a:hover{
+    background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-decoration: none;
+
+}
+body{
+    background: url("../images/COVID.jpg") no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.top{
+    text-align: center;
+    padding-top: 15px;
+}
+.top h1 a{
+    text-decoration: none;
+    color: cyan;
+    border: 2px solid black;
+}
+
+.options{
+    top: 10 px;
+    position: relative;
+}
+
+.ih-item{
+    margin: 0 auto;
+}
+
+.img{
+    margin: 0 auto;
+}
+
+.row{
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+.col-sm-12,.col-xs-12{
+    padding-bottom: 30px;
+}
+
+.profile{
+    height: 530px;
+    width: 506px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: -3px 4px 30px 3px rgba(0,0,0, .5);
+    text-align:center;
+}
+

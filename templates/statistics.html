@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='assets/css/style2.css')}}">
+    <script src="{{url_for('static',filename='js/style.js')}}"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>COVID-19 TWEET ANALYZER</title>
+</head>
+<body onload="fetch()" style="background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+">
+    <div class="btn">
+        <a href="index.html" style="padding:10px; text-decoration:none;">BACK TO HOMEPAGE  <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="table-responsive" style="padding-bottom:100px;">
+        <div class="top">
+            <h1>COVID-19 LIVE UPDATES</h1>
+        </div>
+        <table  cellspacing='20' cellspacing='20' class="table-bordered table-striped text-center" id="tbval" align="center" style="background: #3E5151;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         opacity:0.8; border-radius:30px; color:white;">
+            <tr style="font-size:20px;">
+                <th>Country</th>
+                <th>Total Confirmed</th>
+                <th>Total Recovered</th>
+                <th>Total Deaths</th>
+                <th>New Confirmed</th>
+                <th>New Recovered</th>
+            </tr>
+        </table>
+    </div>
+    <div class="table-responsive" style="padding-bottom:100px;">
+        <div class="top">
+            <h1>COVID-19 INDIA LIVE UPDATES</h1>
+        </div>
+        <table class="table-bordered table-striped text-center" id="tbval1" align="center" style="background: #EB5757;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         opacity:0.8; border-radius:20px; color:white;">
+            <tr style="font-size:20px;">
+                <th>State</th>
+                <th>  Active  </th>
+                <th>  Confirmed  </th>
+                <th>  Recovered  </th>
+                <th>  Deaths  </th>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
