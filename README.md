@@ -9,3 +9,6 @@
 
 #Video Demonstration Link : 
 https://drive.google.com/drive/folders/1nkpBLspPPVLsFNaPEWud7YvPB-hLjMkr?usp=sharing
+
+#Project Report : 
+Project_Report_IBM_HC_2020.docx
